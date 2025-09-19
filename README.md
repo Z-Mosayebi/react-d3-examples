@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React + D3 Examples
 
-## Getting Started
+This repository contains small examples of how to integrate **React**, **TypeScript**, and **D3.js** for building interactive data visualizations.  
+It is designed as a showcase project for learning and demonstrating frontend + dataviz skills.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📊 Examples
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Dynamic Bar Chart
+An interactive bar chart where the data updates randomly when clicking the button.  
+- **Tech:** React, TypeScript, D3  
+- **Concepts:** update pattern, scales, axes, transitions  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Bar Chart Example](./public/bar-example.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 2. Weekly Line Chart (with real API)
+A line chart displaying the **7-day max temperature forecast** for any city.  
+- **Tech:** React, TypeScript, D3, Open-Meteo API  
+- **Features:**  
+  - Fetch city coordinates (Geocoding API)  
+  - Fetch real weather data (Forecast API)  
+  - Display as a responsive line chart with labels  
 
-To learn more about Next.js, take a look at the following resources:
+![Line Chart Example](./public/line-example.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
+- [Next.js](https://nextjs.org/) (React + TypeScript + App Router)  
+- [Tailwind CSS](https://tailwindcss.com/) (styling)  
+- [D3.js](https://d3js.org/) (data visualization)  
+- [Open-Meteo API](https://open-meteo.com/) (real weather data)  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏃 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Z-Mosayebi/react-d3-examples.git
+   cd react-d3-examples
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open in your browser:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 📌 Notes
+- This project is built for **learning and demonstration purposes**.  
+- Contributions and improvements are welcome!  
+
+---
+
+## 📄 License
+MIT License
